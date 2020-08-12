@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EasyToast</string>
+    <string name="toast_success">成功</string>
+    <string name="toast_error">失败</string>
+    <string name="toast_warning">警告</string>
+    <string name="toast_info">提示</string>
+    <string name="toast_default">默认</string>
+    <string name="no_animation_text">------------ No Animation ------------</string>
+    <string name="show_animation_text">------------ show Animation ------------</string>
+</resources>
