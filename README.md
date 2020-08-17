@@ -2,7 +2,11 @@
 
 一款Kotlin简单使用的Toast(带图标动画)
 
-<img src="screenshots/show_anim.gif" />
+## 演示
+|显示图标动画|不显示动画|
+|:---:|:---:|
+|![](screenshots/show_anim.gif)|![](screenshots/no_anim.gif)|
+
 
 添加如下配置将EasyToast引入到你的项目当中：
 ```groovv
@@ -20,8 +24,8 @@ Int(@StringRes) or String.showSuccessToast() //成功
 
 例如：R.string.toast.showToast() or "默认".showToast()
 ```
-# 修改默认效果
-    在任何地方调用：
+## 修改默认效果
+在任何地方调用：
 ```kotlin
 EasyToast.Config.getInstance().apply {
                 setErrorColor(@ColorInt int errorColor) // optional
